@@ -1,0 +1,20 @@
+@font-face {
+    font-family: clockFont;
+    src: url(../images/clockfont.ttf);
+}
+
+body {
+	background-image: url(../images/rockywall.png)
+}
+
+.jumbotron {
+	background-color: black;
+	border-style: solid;
+	border-width: 20px;
+}
+
+#currentTime {
+	font-family: clockFont;
+	font-size: 96px;
+	color: #ff7f28;
+}
